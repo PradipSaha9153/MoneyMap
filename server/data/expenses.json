@@ -1,0 +1,210 @@
+[
+  {
+    "id": "mn7qjxefxm9sdzkyupi",
+    "amount": 351,
+    "category": "Groceries",
+    "date": "2026-03-19",
+    "payment": "UPI",
+    "note": "Buy Some food from BigBasket",
+    "createdAt": "2026-03-26T17:17:46.839Z"
+  },
+  {
+    "id": "mn7qiyv9dbwg6p0chxp",
+    "amount": 33,
+    "category": "Bills",
+    "date": "2026-03-19",
+    "payment": "UPI",
+    "note": "Recharge for Prakash.",
+    "createdAt": "2026-03-26T17:17:02.085Z"
+  },
+  {
+    "id": "mn7qfoyoxj03tct64p",
+    "amount": 913,
+    "category": "Groceries",
+    "date": "2026-03-15",
+    "payment": "UPI",
+    "note": "Buy some grocery item from DMART.",
+    "createdAt": "2026-03-26T17:14:29.280Z"
+  },
+  {
+    "id": "mn7qesgs28yfhkdu6td",
+    "amount": 33,
+    "category": "Groceries",
+    "date": "2026-03-17",
+    "payment": "UPI",
+    "note": "",
+    "createdAt": "2026-03-26T17:13:47.164Z"
+  },
+  {
+    "id": "mn7qd6csqbvyqc8z4q",
+    "amount": 580,
+    "category": "Other",
+    "date": "2026-03-17",
+    "payment": "UPI",
+    "note": "",
+    "createdAt": "2026-03-26T17:12:31.852Z"
+  },
+  {
+    "id": "mn7qc1l5esbt0uvhi95",
+    "amount": 50,
+    "category": "Food",
+    "date": "2026-03-18",
+    "payment": "UPI",
+    "note": "",
+    "createdAt": "2026-03-26T17:11:39.017Z"
+  },
+  {
+    "id": "mn7qbmx2kbzoqkk1x9",
+    "amount": 60,
+    "category": "Groceries",
+    "date": "2026-03-19",
+    "payment": "UPI",
+    "note": "",
+    "createdAt": "2026-03-26T17:11:20.006Z"
+  },
+  {
+    "id": "mn7qaua5r5bkhkfxon",
+    "amount": 120,
+    "category": "Groceries",
+    "date": "2026-03-21",
+    "payment": "UPI",
+    "note": "Buy Some food from BigBasket.",
+    "createdAt": "2026-03-26T17:10:42.893Z"
+  },
+  {
+    "id": "mn7q8mgxv09r5zllmf",
+    "amount": 19,
+    "category": "Bills",
+    "date": "2026-03-24",
+    "payment": "UPI",
+    "note": "Net pack recharging.",
+    "createdAt": "2026-03-26T17:08:59.457Z"
+  },
+  {
+    "id": "mn7q4p1ken9e7wipuv9",
+    "amount": 2051,
+    "category": "Education",
+    "date": "2026-03-24",
+    "payment": "UPI",
+    "note": "",
+    "createdAt": "2026-03-26T17:05:56.168Z"
+  },
+  {
+    "id": "mn7q42bug8jl9odclfw",
+    "amount": 30,
+    "category": "Food",
+    "date": "2026-03-13",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:05:26.730Z"
+  },
+  {
+    "id": "mn7q3qeukvzj9zuj31",
+    "amount": 290,
+    "category": "Shopping",
+    "date": "2026-03-12",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:05:11.286Z"
+  },
+  {
+    "id": "mn7q3884qd3euz0no3",
+    "amount": 200,
+    "category": "Food",
+    "date": "2026-03-12",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:04:47.716Z"
+  },
+  {
+    "id": "mn7q2gb9s7vn5ggupsk",
+    "amount": 20,
+    "category": "Food",
+    "date": "2026-03-10",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:04:11.541Z"
+  },
+  {
+    "id": "mn7q1wjeq7tvbv2jojg",
+    "amount": 120,
+    "category": "Food",
+    "date": "2026-03-09",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:03:45.915Z"
+  },
+  {
+    "id": "mn7q10invqn0jwjm7k",
+    "amount": 20,
+    "category": "Food",
+    "date": "2026-03-06",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:03:04.415Z"
+  },
+  {
+    "id": "mn7q0dv6mroq8yeg6nm",
+    "amount": 90,
+    "category": "Food",
+    "date": "2026-03-05",
+    "payment": "UPI",
+    "note": "Chicken thali",
+    "createdAt": "2026-03-26T17:02:35.058Z"
+  },
+  {
+    "id": "mn7pyvutdla1p6ahimg",
+    "amount": 10,
+    "category": "Food",
+    "date": "2026-03-04",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:01:25.061Z"
+  },
+  {
+    "id": "mn7pyia8arrxdhzwt68",
+    "amount": 7500,
+    "category": "Rent",
+    "date": "2026-03-07",
+    "payment": "UPI",
+    "note": "",
+    "createdAt": "2026-03-26T17:01:07.472Z"
+  },
+  {
+    "id": "mn7pxt95bry3y7o4vtj",
+    "amount": 40,
+    "category": "Food",
+    "date": "2026-03-03",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:00:35.033Z"
+  },
+  {
+    "id": "mn7pxgscsnrms35g13",
+    "amount": 213,
+    "category": "Shopping",
+    "date": "2026-03-02",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T17:00:18.876Z"
+  },
+  {
+    "id": "mn7pwuyqrcveppyungj",
+    "amount": 30,
+    "category": "Food",
+    "date": "2026-03-02",
+    "payment": "Cash",
+    "note": "",
+    "createdAt": "2026-03-26T16:59:50.594Z"
+  },
+  {
+    "id": "mn7ppar8a2qsz21otmv",
+    "amount": 644,
+    "category": "Food",
+    "date": "2026-03-22",
+    "payment": "Cash",
+    "note": "Buy some food from Bigmart.",
+    "createdAt": "2026-03-26T16:53:57.813Z",
+    "updatedAt": "2026-03-26T16:55:38.934Z"
+  }
+]
