@@ -49,13 +49,13 @@ const writeExpenses = (expensesData) => {
 // =======================
 
 // 1. GET /expenses -> Fetch all saved expenses
-app.get('/expenses', (req, res) => {
+app.get('/api/expenses', (req, res) => {
   const expenses = readExpenses();
   res.json(expenses);
 });
 
 // 2. POST /add-expense -> Add a new expense
-app.post('/add-expense', (req, res) => {
+app.post('/api/add-expense', (req, res) => {
   const newExpense = req.body;
 
   // Basic error handling for missing data
@@ -72,7 +72,7 @@ app.post('/add-expense', (req, res) => {
 });
 
 // 3. PUT /expense/:id -> Update an existing expense (Bonus)
-app.put('/expense/:id', (req, res) => {
+app.put('/api/expense/:id', (req, res) => {
   const idToUpdate = req.params.id;
   const updatedData = req.body;
   
@@ -96,7 +96,7 @@ app.put('/expense/:id', (req, res) => {
 });
 
 // 4. DELETE /expense/:id -> Remove an expense (Bonus)
-app.delete('/expense/:id', (req, res) => {
+app.delete('/api/expense/:id', (req, res) => {
   const idToDelete = req.params.id;
   
   let expenses = readExpenses();
