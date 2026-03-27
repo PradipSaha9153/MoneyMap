@@ -26,7 +26,7 @@ const CATEGORY_ICONS = {
 // ─────────────────────────────────────────────
 async function loadExpenses() {
   try {
-    const res = await fetch(`${API_URL}/expenses`);
+    const res = await fetch(`${API_URL}/api/expenses`);
     if (!res.ok) throw new Error('Network response was not ok');
     return await res.json();
   } catch (error) {
@@ -121,7 +121,7 @@ function deleteExpense(id) {
 async function addExpense(data) {
   const expense = { id: uid(), ...data, createdAt: new Date().toISOString() };
   try {
-    const res = await fetch(`${API_URL}/add-expense`, {
+    const res = await fetch(`${API_URL}/api/add-expense`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(expense)
@@ -138,7 +138,7 @@ async function addExpense(data) {
 
 async function updateExpense(id, data) {
   try {
-    const res = await fetch(`${API_URL}/expense/${id}`, {
+    const res = await fetch(`${API_URL}/api/expense/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
@@ -158,7 +158,7 @@ async function updateExpense(id, data) {
 
 async function deleteExpense(id) {
   try {
-    const res = await fetch(`${API_URL}/expense/${id}`, { method: 'DELETE' });
+    const res = await fetch(`${API_URL}/api/expense/${id}`, { method: 'DELETE' });
     if (!res.ok) throw new Error('Failed to delete expense');
     expenses = expenses.filter(e => e.id !== id);
     return true;
