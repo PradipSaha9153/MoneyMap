@@ -7,7 +7,7 @@
 // ─────────────────────────────────────────────
 // 1. STATE
 // ─────────────────────────────────────────────
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://moneymap-8xzf.onrender.com';
 const THEME_KEY   = 'expenseiq_theme';
 
 let expenses   = []; // Loaded asynchronously from backend
